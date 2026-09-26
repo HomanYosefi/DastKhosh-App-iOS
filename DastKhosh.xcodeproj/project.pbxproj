@@ -8,10 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C61368C430655FA1009D2FAB /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = C61368C330655FA1009D2FAB /* Swinject */; };
-		C61368C730655FC8009D2FAB /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = C61368C630655FC8009D2FAB /* CombineMoya */; };
-		C61368C930655FC8009D2FAB /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = C61368C830655FC8009D2FAB /* Moya */; };
-		C61368CB30655FC8009D2FAB /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = C61368CA30655FC8009D2FAB /* ReactiveMoya */; };
-		C61368CD30655FC8009D2FAB /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = C61368CC30655FC8009D2FAB /* RxMoya */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,11 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C61368CD30655FC8009D2FAB /* RxMoya in Frameworks */,
-				C61368C730655FC8009D2FAB /* CombineMoya in Frameworks */,
-				C61368CB30655FC8009D2FAB /* ReactiveMoya in Frameworks */,
 				C61368C430655FA1009D2FAB /* Swinject in Frameworks */,
-				C61368C930655FC8009D2FAB /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,10 +131,6 @@
 			name = DastKhosh;
 			packageProductDependencies = (
 				C61368C330655FA1009D2FAB /* Swinject */,
-				C61368C630655FC8009D2FAB /* CombineMoya */,
-				C61368C830655FC8009D2FAB /* Moya */,
-				C61368CA30655FC8009D2FAB /* ReactiveMoya */,
-				C61368CC30655FC8009D2FAB /* RxMoya */,
 			);
 			productName = DastKhosh;
 			productReference = C613688A30655E94009D2FAB /* DastKhosh.app */;
@@ -633,22 +621,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C61368C230655FA1009D2FAB /* XCRemoteSwiftPackageReference "Swinject" */;
 			productName = Swinject;
-		};
-		C61368C630655FC8009D2FAB /* CombineMoya */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = CombineMoya;
-		};
-		C61368C830655FC8009D2FAB /* Moya */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Moya;
-		};
-		C61368CA30655FC8009D2FAB /* ReactiveMoya */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = ReactiveMoya;
-		};
-		C61368CC30655FC8009D2FAB /* RxMoya */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = RxMoya;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
