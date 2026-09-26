@@ -6,12 +6,21 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
-struct DastKhoshApp: App {
+struct DastkhoshApp: App {
+    init() {
+        DependencyContainer.shared.setupDependencies()
+    }
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DastkhoshAppView()
+                .environment(\.layoutDirection, .rightToLeft) 
+                .environment(\.locale, Locale(identifier: "fa_IR"))
+                .environment(\.font, .custom("Vazirmatn-Medium", size: 16))
+
         }
     }
 }
